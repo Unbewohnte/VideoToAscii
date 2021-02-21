@@ -62,7 +62,7 @@ func GetChar(chars []string, pixelBrightness int) string {
 	return chars[int((charsLen*pixelBrightness)/256)]
 }
 
-// ASCIIfy converts and image.Image into ASCII art
+// ASCIIfy converts an image.Image into ASCII art
 func ASCIIfy(ASCIIchars []string, img *image.Image, cols, rows uint, filename string) {
 
 	var resized image.Image
