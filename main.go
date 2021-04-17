@@ -12,10 +12,10 @@ import (
 
 	"github.com/nsf/termbox-go"
 
-	"./audio"
-	"./extractor"
-	"./jsonData"
-	"./processor"
+	"github.com/unbewohnte/VideoToAscii/audio"
+	"github.com/unbewohnte/VideoToAscii/extractor"
+	"github.com/unbewohnte/VideoToAscii/jsonData"
+	"github.com/unbewohnte/VideoToAscii/processor"
 )
 
 var (
