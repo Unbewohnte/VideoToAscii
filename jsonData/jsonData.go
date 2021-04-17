@@ -28,7 +28,7 @@ const (
 var (
 	defaults = Data{
 
-		MaxGOROUTINES:         200,
+		MaxGOROUTINES:         50,
 		WIDTH:                 210,
 		HEIGHT:                60,
 		ExtractionFPS:         30,
